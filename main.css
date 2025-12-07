@@ -82,7 +82,7 @@ body{
 .navbar i:hover::after{
     opacity: 1;
  /* effet moderne */
-     background: rgba(228, 6, 21);
+    background: rgba(228, 6, 21);
     color: #fff;
     padding: 1rem;
     border-radius: 10vh;
