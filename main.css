@@ -16,6 +16,7 @@ body{
      font-family: "Courgette", cursive;
 }
 .logo{
+    position: absolute;
     width: 60px;
     height: 60px;
     /* background-color: blue; */
@@ -23,9 +24,9 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    position: fixed;
+    position: absolute;
     top: 5vh;
-    left: 6.5vh;
+    left: 5vh;
     border-radius: 60%;
     /* box-shadow: 0 2px 6px rgb(4, 53, 249); */
     /* box-shadow:
@@ -37,9 +38,10 @@ body{
 }
 .navbar{
     background-color:rgb(246, 246, 253);
-    width: 10vh;
+    width: 60px;
+    /* height: 60vh; */
     position: fixed;
-    top: 17vh;
+    top: 20vh;
     left: 5vh;
     border-radius: 10vh;
     display: flex;
@@ -61,14 +63,7 @@ body{
     display: inline-block;
     padding: 10px;
     color: rgb(0, 0, 0);
-    position: relative;    
-    transition: background-color 0.3s, transform 0.3s; 
-    border-radius: 2vh;
-    padding: 2vh;
-}
-.navbar i:hover{
-    background-color: rgba(228, 6, 21);
-    transform: scale(1.2);
+    position: relative;
 }
 
 .navbar i::after{
@@ -81,26 +76,22 @@ body{
     top: 50%;
     transform: translateY(-50%);
     margin-left: 8px;
-    display: inline-block
+
     /* 🎨 Style ajouté */
-    
-  
 
 }
 
 .navbar i:hover::after{
     opacity: 1;
  /* effet moderne */
-    background: rgba(228, 6, 21);
+     background: rgba(228, 6, 21);
     color: #fff;
-    padding: 0.5rem;
-    border-radius: 1vh;
+    padding: 1rem;
+    border-radius: 10vh;
     font-size: 0.75rem;
     white-space: nowrap;
     backdrop-filter: blur(3px);
     z-index: 10;
-    
-    /* background-color: #e74c3c; */
 }
 
 
@@ -158,13 +149,57 @@ body{
     /* gap:3vh ; */
 
 }
-.main1 .box img{
+.main1 .box section ul li img{
     margin-top:2vh;
     width: 30vh;
     height: 200px;
+<<<<<<< HEAD
     border-radius: 4vh;
 }
 .main1 .box .i{
     display: flex;
     flex-direction: row;
+=======
+  
+}
+
+.cadre-diaporama {
+  width: 38vh; 
+  height: 200px;
+  overflow: hidden; 
+  position: relative;
+    border-radius: 5vh;
+ /* border-radius: 10px;*/
+}
+
+.liste-images {
+  position: absolute;
+  top: 0;
+  left: 0;
+  list-style: none; 
+  padding: 0;
+  margin: 0;
+  width: calc(3 *38vh );
+  display: flex; 
+}
+
+.liste-images li {
+  flex-shrink: 0; 
+}
+.liste-images img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+.liste-images {
+  animation: defilement 15s ease-in-out infinite;
+}
+
+@keyframes defilement {
+    0%{left: 0;} 
+    25%{left: -38vh;} 
+    50%{left: -76vh;} 
+    75%{left:-152vh}
+    100%{left: 0;} 
+>>>>>>> ff1e378fd4021a7d496ae621c405e7f0e5e2af1a
 }
