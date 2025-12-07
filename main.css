@@ -24,7 +24,7 @@ body{
     background-size: cover;
     position: absolute;
     top: 5vh;
-    left: 5vh;
+    left: 6.5vh;
     border-radius: 60%;
     /* box-shadow: 0 2px 6px rgb(4, 53, 249); */
     /* box-shadow:
@@ -36,10 +36,9 @@ body{
 }
 .navbar{
     background-color:rgb(246, 246, 253);
-    width: 60px;
-    /* height: 60vh; */
+    width: 10vh;
     position: fixed;
-    top: 20vh;
+    top: 17vh;
     left: 5vh;
     border-radius: 10vh;
     display: flex;
@@ -61,7 +60,14 @@ body{
     display: inline-block;
     padding: 10px;
     color: rgb(0, 0, 0);
-    position: relative;
+    position: relative;    
+    transition: background-color 0.3s, transform 0.3s; 
+    border-radius: 2vh;
+    padding: 2vh;
+}
+.navbar i:hover{
+    background-color: rgba(228, 6, 21);
+    transform: scale(1.2);
 }
 
 .navbar i::after{
@@ -74,8 +80,10 @@ body{
     top: 50%;
     transform: translateY(-50%);
     margin-left: 8px;
-
+    display: inline-block
     /* 🎨 Style ajouté */
+    
+  
 
 }
 
@@ -84,12 +92,14 @@ body{
  /* effet moderne */
     background: rgba(228, 6, 21);
     color: #fff;
-    padding: 1rem;
-    border-radius: 10vh;
+    padding: 0.5rem;
+    border-radius: 1vh;
     font-size: 0.75rem;
     white-space: nowrap;
     backdrop-filter: blur(3px);
     z-index: 10;
+    
+    /* background-color: #e74c3c; */
 }
 
 
