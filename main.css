@@ -103,11 +103,13 @@ body{
     /* background-color: #e74c3c; */
 }
 
+.main{
+    margin-left: 17vh;
 
+}
 .main1{
     display: flex;
     gap: 3vh;
-    margin-left: 17vh;
 
 }
 .main1 h1{
@@ -125,8 +127,8 @@ body{
 /* animatio texte */
 .main1 .img{
     margin-top: 3vh;
-    width: 1100px;
-    height: 700px;
+    width: 71vw;
+    height: 45vw;
     background-color: transparent;
     background-image: url("./img/img5.jpg");
     background-repeat: no-repeat;
@@ -167,4 +169,16 @@ body{
 .main1 .box .i{
     display: flex;
     flex-direction: row;
+}
+.main .main2 .img{
+    margin-top: 3vh;
+    width: 90vw;
+    height: 50vw;
+    background-color: rgb(250, 250, 250);
+    /* background-image: url("./img/img5.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    /* margin-left: 15vh; */
+     border-radius: 10vh; 
 }
