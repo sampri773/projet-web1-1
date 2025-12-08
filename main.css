@@ -150,7 +150,7 @@ body{
     width: 270px;
     height: 500px;
     background-color: rgb(255, 255, 255);
-    border-radius: 10vh ;
+    border-radius: 5vh ;
     display: flex;
     justify-content: center; 
     align-items: center;
