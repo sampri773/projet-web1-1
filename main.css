@@ -7,26 +7,38 @@ html {
   scroll-behavior: smooth;
   font-family: "Courgette", cursive;
 }
+header{
+    position: fixed;
+    /* top: -22vh; */
+    /* left: 1vh; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 3vw;
+    background-color: rgb(249, 247, 247);
+    height: 62vw;
+    width: 5vw;
+}
 
 body{
     background-color: #eeeeee;
-     display: flex;
+     /* display: flex; */
      /* flex-direction: o; */
      /* justify-content: center; */
-     align-items: center;
+     /* align-items: center; */
      font-family: "Courgette", cursive;
 }
 .logo{
     width: 60px;
     height: 60px;
     /* background-color: blue; */
-    background-image: url("./img/logo.jpg");
+    background-image: url("./img/logo2.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    position: fixed;
-    top: 5vh;
-    left: 6.5vh;
+    /* position: fixed; */
+    margin-top: 3vh;
     border-radius: 60%;
     /* box-shadow: 0 2px 6px rgb(4, 53, 249); */
     /* box-shadow:
@@ -37,18 +49,19 @@ body{
 
 }
 .navbar{
-    background-color:rgb(246, 246, 253);
+    /* background-color:rgb(246, 246, 253); */
     width: 10vh;
-    position: fixed;
+    height: 30vw;
+    /* position: fixed; */
     top: 17vh;
     left: 5vh;
-    border-radius: 10vh;
+    border-radius: 5vh;
     display: flex;
     /* justify-content: center; */
     align-items: center;
     flex-direction: column;
-    gap: 3vh;
-    padding-block: 20px;
+    gap: 2vw;
+    /* padding-block: 20px; */
     /* box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15); */
         /* box-shadow:
             5px 5px 10px rgb(177, 177, 177),
@@ -58,14 +71,20 @@ body{
     /* align-items: center; */
 }
 .navbar i{
-    font-size: 1rem;
-    display: inline-block;
-    padding: 10px;
+    font-size: 1.6rem;
+    /* display: inline-block; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0.5rem; */
     color: rgb(0, 0, 0);
     position: relative;    
     transition: background-color 0.3s, transform 0.3s; 
     border-radius: 2vh;
-    padding: 2vh;
+    /* padding: 2vh; */
+    width: 6vh;
+    height: 6vh;
+    
 }
 .navbar i:hover{
     background-color: rgba(228, 6, 21);
@@ -105,7 +124,7 @@ body{
 }
 
 .main{
-    margin-left: 17vh;
+    margin-left: 6vw;
 
 }
 .main1{
@@ -116,9 +135,9 @@ body{
 .main1 h1{
     color: white;
     font-size: 2rem;
-    position: absolute;
-    top : 70vh;
-    left: 70vh;
+    /* position: absolute; */
+    /* top : 70vh;
+    left: 70vh; */
 }
 
 
@@ -128,31 +147,29 @@ body{
 /* animatio texte */
 .main1 .img{
     margin-top: 3vh;
-    width: 71vw;
-    height: 45vw;
+    width: 50vw;
+    height: 50vw;
     background-color: transparent;
-    background-image: url("./img/img5.jpg");
+    background-image: url("./img/menu/Aesthetic\ Pizza\ Fresh\ from\ the\ Oven\ Photography\ _\ Pizza\ Lovers\ _\ Pizza\ Goals\ 🍕.jpgd");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: 100% 100%;
     /* margin-left: 15vh; */
-     border-radius: 10vh; 
+     border-radius: 5vh; 
+     display: flex;
+     align-items: center;
+     justify-content: center;
     /* box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);    */
-}
-.main1 video {
-    margin-top: 3vh;
-    width: 1100px;
-    height: 700px;
-    object-fit: cover; /* ou contain selon le résultat désiré */
-    border-radius: 10vh;
-    border-radius:10vh;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
 .main1 .box{
     margin-top: 3vh;
-    width: 270px;
-    height: 500px;
+    width: 40vw;
+    height: 25vw;
     background-color: rgb(255, 255, 255);
+    background-image: url("./img/menu/500º.jpg"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
     border-radius: 5vh ;
     display: flex;
     justify-content: center; 
@@ -166,6 +183,7 @@ body{
     width: 30vh;
     height: 200px;
     border-radius: 4vh;
+    background-size: 100% 100%;
 }
 .main1 .box .i{
     display: flex;
@@ -237,6 +255,7 @@ body{
     justify-content: center;
     align-items: center;
     /* margin-bottom: 1vh; */
+    border-radius:5vh ;
     
 }
 .main .main2 .img .container .menu .cont2{
