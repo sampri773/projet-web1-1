@@ -86,30 +86,31 @@ body{
     transition: background-color 0.3s, transform 0.3s; 
     border-radius: 2vh;
     /* padding: 2vh; */
-    width: 6vh;
-    height: 6vh;
-    
+        width: 6vh;
+        height: 6vh;    
 }
+    /* .navbar i#end{
+        margin-top: 25vw;
+    } */
 .navbar i:hover{
     background-color: rgba(228, 6, 21);
     transform: scale(1.2);
 }
 
 .navbar i::after{
+    font-family: "Roboto",sans-serif;
+
     content: attr(data-text);
     opacity: 0;
     transition: .3s;
     /* Position */
     position: absolute;
-    left: 10vh;
+    left: 8vh;
     top: 50%;
     transform: translateY(-50%);
-    margin-left: 8px;
+    /* margin-left: 2px; */
     display: inline-block
     /* 🎨 Style ajouté */
-    
-  
-
 }
 
 .navbar i:hover::after{
@@ -146,7 +147,7 @@ body{
 .main1 .img{
     /* margin-top: 3vh; */
     width: 92vw;
-    height: 50vw;
+    height: 53vw;
     background-color: white;
     /*
     background-image: url("./img/menu/Aesthetic\ Pizza\ Fresh\ from\ the\ Oven\ Photography\ _\ Pizza\ Lovers\ _\ Pizza\ Goals\ 🍕.jpgd");
@@ -209,6 +210,7 @@ body{
     border-radius: 1vh;
     margin-top: 10vw;
     font-family: "Roboto",sans-serif;
+    color: white;
 
 }
 .main1 .img .img2{
@@ -302,7 +304,7 @@ body{
         width: 20vw;
         height: 30vw;
         /* background-color: red; */
-        background-color: rgb(255, 255, 255);
+        background-color: #ff3131;
         border-radius:  2vh;
 
 
