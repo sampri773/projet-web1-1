@@ -22,7 +22,7 @@ header{
 }
 
 body{
-    background-color: #eeeeee;
+    /* background-color: #eeeeee; */
      /* display: flex; */
      /* flex-direction: o; */
      /* justify-content: center; */
@@ -132,13 +132,7 @@ body{
     gap: 3vh;
 
 }
-.main1 h1{
-    color: white;
-    font-size: 2rem;
-    /* position: absolute; */
-    /* top : 70vh;
-    left: 70vh; */
-}
+
 
 
 /* animatio texte */
@@ -147,20 +141,77 @@ body{
 /* animatio texte */
 .main1 .img{
     margin-top: 3vh;
-    width: 50vw;
+    width: 92vw;
     height: 50vw;
-    background-color: transparent;
+    background-color: white;
+    /*
     background-image: url("./img/menu/Aesthetic\ Pizza\ Fresh\ from\ the\ Oven\ Photography\ _\ Pizza\ Lovers\ _\ Pizza\ Goals\ 🍕.jpgd");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100% 100%;
+    background-size: 100% 100%; */
     /* margin-left: 15vh; */
      border-radius: 5vh; 
      display: flex;
-     align-items: center;
+     /* align-items: center; */
      justify-content: center;
     /* box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);    */
 }
+.main1 .img .img1{
+    width: 40%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    padding-left: 8vh;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.main1 .img .img1 h1 {
+    width: 40vw;
+    /* color: white; */
+    font-size: 5rem;
+    font-family: "Montserrat", sans-serif;
+    /* position: absolute; */
+    /* top : 70vh;
+    left: 70vh; */
+    margin-top: 10vw;
+    /* background-color: red */
+}
+.main1 .img .img1 .txt{
+    display: flex;
+    font-size: 3rem;
+    gap: 1vw;
+}
+.main1 .img .img2{
+    width: 50%;
+    height: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    background-image: url("./img/menu/Design\ sans\ titre.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    border-radius: 5vh;
+}
+/* .main1 .img .img2 .value1{
+    width: 60%;
+      position: relative;
+        z-index: 99;
+    background-color: black;
+} */
+/* .main1 .img .img2 .value1 img{
+    width: 50vw;
+    background-color: red;
+    height: 50vw;
+}
+.main1 .img .img2 .value2{
+    width: 40%;
+    background-color: rgb(52, 6, 238);
+    border-radius: 15vh 0 15vh 15vh;
+    position: relative;
+    z-index: 1;
+
+} */
 .main1 .box{
     margin-top: 3vh;
     width: 40vw;
