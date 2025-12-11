@@ -35,7 +35,7 @@ body{
      font-family: "Courgette", cursive;
 }
 .logo{
-    position: absolute;
+    position: sticky;
     width: 60px;
     height: 60px;
     /* background-color: blue; */
