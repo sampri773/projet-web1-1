@@ -98,7 +98,10 @@ main .main2 .img .container .menu {
     /* background-color: #ff3131; */
     border-radius: 2vh;
     gap: 5vh;
-
+    transition: 0.3s;
+}
+main .main2 .img .container .menu:hover {
+    transform: scale(1.04);
 }
 
 main .main2 .img .container .menu .cont1 {
