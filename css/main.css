@@ -9,7 +9,6 @@
 }
 html {
   scroll-behavior: smooth;
-  font-family: "Courgette", cursive;
 }
 header{
     position: fixed;
@@ -30,15 +29,18 @@ body{
      /* display: flex; */
      /* flex-direction: o; */
      /* justify-content: center; */
+
+     /*align-items: center;*/
      /* align-items: center; */
      font-family: "Roboto",sans-serif;
 
 }
 .logo{
+    position: sticky;
     width: 60px;
     height: 60px;
     /* background-color: blue; */
-    background-image: url("./img/logo2.png");
+    background-image: url("../img/logo2.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -117,16 +119,14 @@ body{
 .navbar i:hover::after{
     opacity: 1;
  /* effet moderne */
-    background: rgba(228, 6, 21);
+     background: rgba(228, 6, 21);
     color: #fff;
-    padding: 0.5rem;
-    border-radius: 1vh;
+    padding: 1rem;
+    border-radius: 10vh;
     font-size: 0.75rem;
     white-space: nowrap;
     backdrop-filter: blur(3px);
     z-index: 10;
-    
-    /* background-color: #e74c3c; */
 }
 
 .main{
@@ -139,8 +139,6 @@ body{
 
 }
 
-
-
 /* animatio texte */
 
 
@@ -152,6 +150,7 @@ body{
     background-color: white;
     /*
     background-image: url("./img/menu/Aesthetic\ Pizza\ Fresh\ from\ the\ Oven\ Photography\ _\ Pizza\ Lovers\ _\ Pizza\ Goals\ 🍕.jpgd");
+>>>>>>> 4eea2bc076c72f5ea4ab5b69d730eaaddca92904
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%; */
@@ -255,19 +254,58 @@ body{
     background-size: cover; 
     border-radius: 5vh ;
     display: flex;
-    justify-content: center; 
+    /* justify-content: center;  */
     align-items: center;
     flex-direction: column;
     /* gap:3vh ; */
 
 }
-.main1 .box img{
+.main1 .box section ul li img{
     margin-top:2vh;
-    width: 30vh;
+    width: 38vh;
     height: 200px;
     border-radius: 4vh;
     background-size: 100% 100%;
 }
+
+/*.cadre-diaporama {
+  width: 38vh; 
+  height: 200px;
+  overflow: hidden; 
+  position: relative;
+    border-radius: 5vh;
+ /* border-radius: 10px;
+}
+
+.liste-images {
+  position: absolute;
+  top: 0;
+  left: 0;
+  list-style: none; 
+  padding: 0;
+  margin: 0;
+  width: calc(3 *38vh );
+  display: flex; 
+}
+
+.liste-images li {
+  flex-shrink: 0; 
+}
+.liste-images img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+.liste-images {
+  animation: defilement 15s ease-in-out infinite;
+}
+
+@keyframes defilement {
+    0%{left: 0;} 
+    25%{left: -38vh;} 
+    50%{left: -76vh;} 
+    75%{left:-152vh}
+    100%{left: 0;}*/
 .main1 .box .i{
     display: flex;
     flex-direction: row;
