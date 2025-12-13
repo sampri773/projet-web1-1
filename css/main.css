@@ -132,9 +132,11 @@ body{
     z-index: 10;
 }
 
-.main{
+main{
     margin-left: 6vw;
-
+    display: flex;
+    flex-direction: column;
+    gap: 7vh;
 }
 .main1{
     display: flex;
