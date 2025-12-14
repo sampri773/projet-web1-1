@@ -1,4 +1,4 @@
-/* .anr_main {
+    /* .anr_main {
     margin-left: 100px;
     margin-top: 100px;
 } */
@@ -8,7 +8,7 @@
     height: 150px;
     border-radius: 10px;
 }
-.h2 {
+.anr_main .h2 {
     display: flex;
     justify-content: center;
     align-items: center;
