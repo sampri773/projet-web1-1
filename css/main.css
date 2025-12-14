@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: "Roboto",sans-serif;
+    /* font-family: "Roboto",sans-serif; */
     box-sizing: border-box;
 
     /* box-sizing: border-box; */
@@ -29,13 +29,7 @@ header{
 
 body{
     background-color: #fafafa;
-     /* display: flex; */
-     /* flex-direction: o; */
-     /* justify-content: center; */
-
-     /*align-items: center;*/
-     /* align-items: center; */
-     font-family: "Roboto",sans-serif;
+    padding-bottom: 5vh;
 
 }
 .logo{
@@ -182,7 +176,7 @@ main{
     width: 30vw;
     /* color: white; */
     font-size: 4rem;
-    font-family: "Roboto",serif;
+    font-family: "Roboto",sans-serif;
     /* position: absolute; */
     /* top : 70vh;
     left: 70vh; */
@@ -204,6 +198,7 @@ main{
     color: #ff3131;
 }
 .main1 .img .img1 p{
+    font-family: "Roboto",sans-serif;
     color: #767575;
 }
 .main1 .img .img1 button{
