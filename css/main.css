@@ -1,8 +1,10 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: "Roboto",sans-serif;
+    /* font-family: "Roboto",sans-serif; */
     box-sizing: border-box;
+    /* color:#240602; */
+
 
     /* box-sizing: border-box; */
 }
@@ -12,6 +14,14 @@
 }
 html {
   scroll-behavior: smooth;
+}
+button{
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; 
+
+}
+button:hover{
+    transform: scale(1.1);
 }
 header{
     position: fixed;
@@ -29,13 +39,7 @@ header{
 
 body{
     background-color: #fafafa;
-     /* display: flex; */
-     /* flex-direction: o; */
-     /* justify-content: center; */
-
-     /*align-items: center;*/
-     /* align-items: center; */
-     font-family: "Roboto",sans-serif;
+    padding-bottom: 5vh;
 
 }
 .logo{
@@ -80,8 +84,12 @@ body{
             inset 0 0 0 transparent; */
     /* align-items: center; */
 }
-.navbar i{
-    font-size: 1.6rem;
+.navbar a {
+    list-style: none;
+    text-decoration: none;
+}
+.navbar a i{
+    font-size: 1.4rem;
     /* display: inline-block; */
     display: flex;
     justify-content: center;
@@ -95,15 +103,19 @@ body{
         width: 6vh;
         height: 6vh;    
 }
+.navbar a.out{
+    /* background-color: #ff3131; */
+    margin-top: 30vh;
+}
     /* .navbar i#end{
         margin-top: 25vw;
     } */
-.navbar i:hover{
+.navbar  a i:hover{
     background-color: rgba(228, 6, 21);
     transform: scale(1.2);
 }
 
-.navbar i::after{
+.navbar a i::after{
     font-family: "Roboto",sans-serif;
 
     content: attr(data-text);
@@ -119,7 +131,7 @@ body{
     /* 🎨 Style ajouté */
 }
 
-.navbar i:hover::after{
+.navbar a i:hover::after{
     opacity: 1;
  /* effet moderne */
      background: rgba(228, 6, 21);
@@ -182,7 +194,7 @@ main{
     width: 30vw;
     /* color: white; */
     font-size: 4rem;
-    font-family: "Roboto",serif;
+    font-family: "Roboto",sans-serif;
     /* position: absolute; */
     /* top : 70vh;
     left: 70vh; */
@@ -204,9 +216,10 @@ main{
     color: #ff3131;
 }
 .main1 .img .img1 p{
+    font-family: "Roboto",sans-serif;
     color: #767575;
 }
-.main1 .img .img1 button{
+.main1 .img .img1  button{
     background-color: #004aad;
     width: 15vw;
     /* height: 3vw; */
@@ -217,6 +230,10 @@ main{
     font-family: "Roboto",sans-serif;
     color: white;
 
+}
+.main1 .img .img1  button a{
+    color: white;
+    text-decoration: none;
 }
 .main1 .img .img2{
     width: 50%;
