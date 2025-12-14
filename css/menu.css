@@ -297,7 +297,7 @@ main .main2 .img .container .a2 .fact{
     gap: 5vh;
 }
 main .main2 .img .container .a2 .fact .texte{
-    /* background-color: red; */
+    /* background-color: red;ù */
     display: flex;
     align-items: center;
     justify-content: space-between;
