@@ -103,6 +103,10 @@ body{
         width: 6vh;
         height: 6vh;    
 }
+.navbar a.out{
+    /* background-color: #ff3131; */
+    margin-top: 30vh;
+}
     /* .navbar i#end{
         margin-top: 25vw;
     } */
