@@ -303,3 +303,9 @@ main .main2 .img .container .a2 .fact .texte{
     justify-content: space-between;
     
 }
+main .main2 .img .container .a2 .fact button{
+    height: 5vh;
+    border-radius: 3vh;
+    border: none;
+    background-color:#2a80f0;
+}
