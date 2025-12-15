@@ -21,8 +21,10 @@
 .flex_map h3{
     color: #240602;;
 }
+
 .glady{
     display: flex;
+    flex-direction: column;
     gap: 3vh;
     width: 60%;
 }
@@ -69,7 +71,7 @@
 
 .flex {
     display: flex;
-    flex-direction: column;
+    /*flex-direction: column;*/
     align-items: center;
     gap: 15px;
     margin-top: 25px;
@@ -80,7 +82,7 @@
 .flex2 {
     display: flex;
     align-items: center;
-    flex-direction: column;
+    /*flex-direction: column;*/
     gap: 15px;
     margin-top: 25px;
     margin-right: 5px;
@@ -89,7 +91,7 @@
 .flex3 {
     display: flex;
     align-items: center;
-    flex-direction: column;
+    /*flex-direction: column;*/
     gap: 15px;
     margin-top: 25px;
 }
@@ -118,8 +120,19 @@
     font-family: "Roboto",sans-serif;
 }
 
+.pop {
+    color: rgb(139, 139, 139);
+    margin-top: 2vh;
+    width: 30vw;
+}
+
 .bloc1:hover {
     transform: scale(1.02);
+}
+
+.nos_resto {
+    margin-top: 3vh;
+    font-family: "Roboto", sans-serif;
 }
 
 .flex_map .icone {
