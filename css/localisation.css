@@ -1,12 +1,26 @@
-    /* .anr_main {
-    margin-left: 100px;
-    margin-top: 100px;
-} */
+/*.flex_map {
+    display: flex;
+    align-items: center;
+}*/
+
+.flex_map {
+    display: flex;
+}
+
+.map {
+    margin-top: 25px;
+}
+
+.map_img {
+    width: 600px;
+    height: 100%;
+}
 
 .anr_img {
     width: 200px;
     height: 150px;
     border-radius: 10px;
+    object-fit: cover;
 }
 .anr_main .h2 {
     display: flex;
@@ -35,33 +49,56 @@
 
 .flex {
     display: flex;
+    flex-direction: column;
     align-items: center;
     gap: 15px;
-    margin-top: 50px;
+    margin-top: 25px;
+    margin-right: 5px;
+    margin-left: 10px;
 }
 
 .flex2 {
     display: flex;
     align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 25px;
+    margin-right: 5px;
+}
+
+.flex3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     gap: 15px;
     margin-top: 25px;
 }
 
+.txt_bloc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+}
+
 .bloc1 {
     display: flex;
+    flex-direction: column;
     align-items: center;
     gap: 15px;
     border: 2px solid white;
     border-radius: 10px;
     padding: 10px;
-    width: 400px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     background-color: white;
+    padding-left: 0;
     transition: 0.3s;
 }
 
 .bloc1:hover {
-    transform: scale(1.04);
+    transform: scale(1.02);
 }
 
 .stars {
