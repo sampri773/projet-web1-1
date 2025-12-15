@@ -11,19 +11,20 @@
 html {
     scroll-behavior: smooth;
 }
-
-
 footer {
     width: 92vw;
     height: 35vw;
-    background: rgb(241, 237, 237);
+    background: #fafafa;
     border-radius: 2vh;
     margin: 6vw 6vw 0 6vw;
 }
 .partie1{
     display: flex;
     justify-content: space-between;
-    padding: 2vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
 }
 .extrarouge{
     color: red;
@@ -31,54 +32,45 @@ footer {
 .pizzaBleu{
     color: blue;
 }
+
 .entrer{
     padding:0 0 2ch 0;
 }
 .email{
-    height: 3vh;
-    width: 12vw;
+    height: 4vh;
+    width: 15vw;
+    border: none;
+    background-color:#fff;
 }
-#email{
-    background-color: aliceblue;
-    height: 3vh;
-    width: 4vh;
-}.input{
+
+.input{
     display: flex;
     align-items: center;
 }
-
-hr {
-  height: 1vh;
-  border: none;
-  margin: 0 4vw 1vw 4vw;
-  border-radius: 2vh;
-  background: linear-gradient(90deg, rgb(238, 5, 5), rgba(31, 103, 211, 0.616), rgba(231, 236, 235, 0.651), rgba(44, 47, 223, 0.918), rgba(245, 4, 16, 0.932), #dddee1);
-  background-size: 300% 300%;
-  animation: nvg 4s ease-in-out infinite;
-}
-
-@keyframes nvg {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+.hr{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    border:none;
+    height:1px;
+    background-color: gainsboro;
 }
 
 .partie2{
     display: flex;
-    justify-content: space-evenly;
-    padding: 3vw 0 4vw 0;
-    font-size: 3vh;
+    justify-content: space-between;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+     margin-left: 5vw;
+    margin-right: 5vw;
 }
 .trois{
     line-height: 4vh;
+    
 }
-
+.trois ul li {
+    list-style-type: none;
+    color:rgb(86, 84, 84);
+}
 #icone{
     color: blue;
     display: flex;
