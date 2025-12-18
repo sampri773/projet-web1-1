@@ -19,7 +19,7 @@
     color: rgb(139, 139, 139);
 }
 .flex_map h3{
-    color: #240602;;
+    color: #240602;
 }
 
 .glady{
@@ -43,6 +43,44 @@
     height: 10vw;
     border-radius: 10px;
     object-fit: cover;
+}
+.anr_img1 {
+    width: 14vw;
+    height: 10vw;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.anr_img{
+    opacity: 0;
+    animation: Stay 3s ease forwards;
+}
+@keyframes Stay {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1; /* mipoitra */
+    }
+  100% {
+    opacity: 1; /* mijanona */
+  }
+}
+.anr_img1 {
+  opacity: 0;
+  animation: fadeInStay 5s ease forwards;
+}
+
+/* Animation */
+@keyframes fadeInStay {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1; /* mipoitra */
+    }
+  100% {
+    opacity: 1; /* mijanona */
+  }
 }
 .anr_main .h2 {
     display: flex;
@@ -126,6 +164,10 @@
     width: 30vw;
 }
 
+.every {
+    color: #240602;
+}
+
 .bloc1:hover {
     transform: scale(1.02);
 }
@@ -133,6 +175,7 @@
 .nos_resto {
     margin-top: 3vh;
     font-family: "Roboto", sans-serif;
+    color: #240602;
 }
 
 .flex_map .icone {
