@@ -5,6 +5,28 @@
 
 .flex_map {
     display: flex;
+    gap: 3vh;
+    /* margin-inline: 5vh; */
+    /* border-radius: 50vh; */
+    background-color: white;
+}
+.flex_map .txt{
+    display: flex;
+    flex-direction: column;
+    gap:1vh;
+}
+.flex_map p{
+    color: rgb(139, 139, 139);
+}
+.flex_map h3{
+    color: #240602;;
+}
+
+.glady{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    width: 60%;
 }
 
 .map {
@@ -17,8 +39,8 @@
 }
 
 .anr_img {
-    width: 200px;
-    height: 150px;
+    width: 14vw;
+    height: 10vw;
     border-radius: 10px;
     object-fit: cover;
 }
@@ -49,7 +71,7 @@
 
 .flex {
     display: flex;
-    flex-direction: column;
+    /*flex-direction: column;*/
     align-items: center;
     gap: 15px;
     margin-top: 25px;
@@ -60,7 +82,7 @@
 .flex2 {
     display: flex;
     align-items: center;
-    flex-direction: column;
+    /*flex-direction: column;*/
     gap: 15px;
     margin-top: 25px;
     margin-right: 5px;
@@ -69,7 +91,7 @@
 .flex3 {
     display: flex;
     align-items: center;
-    flex-direction: column;
+    /*flex-direction: column;*/
     gap: 15px;
     margin-top: 25px;
 }
@@ -85,23 +107,39 @@
 .bloc1 {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     gap: 15px;
     border: 2px solid white;
     border-radius: 10px;
-    padding: 10px;
-    width: 250px;
-    height: 250px;
-    background-color: white;
+    /* padding: 10px; */
+    width: 14vw;
+    height: 20vw;
+    /* background-color:red; */
     padding-left: 0;
     transition: 0.3s;
+    font-family: "Roboto",sans-serif;
+}
+
+.pop {
+    color: rgb(139, 139, 139);
+    margin-top: 2vh;
+    width: 30vw;
 }
 
 .bloc1:hover {
     transform: scale(1.02);
 }
 
-.stars {
+.nos_resto {
+    margin-top: 3vh;
+    font-family: "Roboto", sans-serif;
+}
+
+.flex_map .icone {
     display: flex;
-    align-items: center;
+    gap: 1vh;
+}
+
+.flex_map .icone i {
+    color: #eebc57;
 }

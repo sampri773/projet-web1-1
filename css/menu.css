@@ -255,7 +255,7 @@ main .main2 .img .container .a1 .contenu .kaly .unique {
     align-items: center;
     background-color: #ff3131;
     width: 13vh;
-    height: 4.5vh;
+    height: 5.5vh;
     border-radius: 2.5vh;
     gap: 1ch;
     font-size: 0.8rem;
@@ -275,16 +275,16 @@ main .main2 .img .container .a1 .contenu .kaly .pizza {
     align-items: center;
     background-color: #ebebeb;
     width: 13vh;
-    height: 4.5vh;
+    height: 5.5vh;
     border-radius: 2.5vh;
     gap: 1ch;
     font-size: 0.8rem;
-    color: #969696;
-    ;
+    color: #969696;;
     border: none;
 }
 
 main .main2 .img .container .a1 .contenu .kaly .pizza img {
+    margin-top: -1vh;
     width: 1.5vw;
     height: 1.5vw;
 }
